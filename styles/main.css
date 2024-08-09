@@ -1,9 +1,3 @@
-@font-face {
-    font-family: 'Inter';
-
-    src: url(./fonts/InterVariable.ttf) format('truetype');
-}
-
 html {
     background-color: #121212;
     color: #ffffff;
