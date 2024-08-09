@@ -1,17 +1,17 @@
 @font-face {
     font-family: 'Inter';
-    src: url(../fonts/Inter.ttc);
+    src: url(../fonts/Inter-Regular.woff2) format('woff2');
 }
 
 html {
     background-color: #121212;
-    color: #ffff;
-    font-size: 16px; 
+    color: #ffffff;
+    font-size: 16px;
     box-sizing: border-box;
 }
 
 *, *::before, *::after {
-    box-sizing: inherit; 
+    box-sizing: inherit;
 }
 
 body {
@@ -30,26 +30,28 @@ a:hover {
 }
 
 .infodiv {
-    padding: 1rem 3%; 
-    line-height: 1em;
-    text-align: left; 
+    padding: 1rem 3%;
+    line-height: 1.5em; /* Adjusted for better readability */
+    text-align: left;
+    max-width: 100%; /* Ensure content does not overflow */
+    word-wrap: break-word; /* Prevent long words from overflowing */
 }
 
 .support-link {
-    display: block; 
+    display: block;
     margin: 1rem 3%;
     text-align: left;
-    font-size: 1rem; 
+    font-size: 1rem;
 }
 
 .footer {
     position: fixed;
     bottom: 2%;
     left: 3%;
-    display: flex; 
-    gap: 1rem; 
+    display: flex;
+    gap: 1rem;
     z-index: 10;
-    font-size: 1rem; 
+    font-size: 1rem;
 }
 
 .footer a {
@@ -60,5 +62,4 @@ a:hover {
 .footer a:hover {
     color: #808080;
 }
-
 
