@@ -26,9 +26,9 @@ a:hover {
 
 .infodiv {
     padding: 1rem 3%;
-    line-height: 1.5em; /* Adjusted for better readability */
+    line-height: 1.5em; 
     text-align: left;
-    max-width: 100%; /* Ensure content does not overflow */
+    max-width: 100%; 
     word-wrap: break-word; 
 }
 
