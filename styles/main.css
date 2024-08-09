@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'Inter';
 
-    src: url(../fonts/InterVariable.ttf) format('truetype');
+    src: url(./fonts/InterVariable.ttf) format('truetype');
 }
 
 html {
