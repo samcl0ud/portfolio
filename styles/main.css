@@ -15,7 +15,7 @@ h1, h2 {
     margin: 0.5rem 0;
 }
 
-.infodiv {
+.maincontent {
     margin: 0 auto;
     padding: 2rem;
     max-width: 600px;
@@ -50,4 +50,18 @@ hr {
     margin: 1.5rem 0;
     border: none;
     border-top: 1px solid #ffffff;
+}
+
+.inline-image {
+    display: inline;
+    float: right;
+    width: 5em;
+    height: 5em;
+}
+
+.projects {
+    background-color: #1c1c1c;
+    border-radius: 10px;
+    padding-top: 1%;
+    padding: 1em
 }
