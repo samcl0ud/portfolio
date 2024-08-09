@@ -23,10 +23,6 @@ h1, h2 {
     word-wrap: break-word; 
 }
 
-*, *::before, *::after {
-    box-sizing: inherit;
-}
-
 .support-link {
     margin-top: 1rem;
     font-size: 1rem;
