@@ -69,3 +69,7 @@ hr {
 .indented {
     margin-left: 1.2em;
 }
+
+#thinner {
+    width: 35em;
+}
