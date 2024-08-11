@@ -18,7 +18,7 @@ h1, h2 {
 .maincontent {
     margin: 0 auto;
     padding: 2rem;
-    max-width: 600px;
+    max-width: 40em;
     text-align: left;
     word-wrap: break-word; 
 }
