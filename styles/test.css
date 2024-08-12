@@ -1,0 +1,31 @@
+* {
+    background-color: black;
+}
+
+.titlediv {
+    position: relative;
+}
+
+.icon-links {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    display: flex;
+    gap: 1rem;
+}
+
+.icon {
+    width: 24px; /* Adjust size as needed */
+    height: 24px; /* Adjust size as needed */
+}
+
+.icon img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.icon-links a {
+    display: inline-block;
+}

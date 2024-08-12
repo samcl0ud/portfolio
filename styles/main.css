@@ -15,6 +15,10 @@ h1, h2 {
     margin: 0.5rem 0;
 }
 
+.titlediv {
+    position: relative;
+}
+
 .maincontent {
     margin: 0 auto;
     padding: 2rem;
@@ -72,4 +76,32 @@ hr {
 
 #thinner {
     width: 35em;
+}
+
+.icon-links {
+    position: absolute;
+    top: 1.3em;
+    right: 0;
+    transform: translateY(-50%);
+    display: flex;
+    gap: 1rem;
+}
+
+.icon {
+    width: 24px; /* Adjust size as needed */
+    height: 24px; /* Adjust size as needed */
+}
+
+.icon img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.icon-links a {
+    display: inline-block;
+}
+
+#less-padding {
+    margin-top: -1px
 }
